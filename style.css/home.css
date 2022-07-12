@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    z-index: 10;
+  /* background-color: #3163A2;*/
+ 
+}
+
+.header-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+   background-color: white;
+    align-items: center;
+    align-content: center;
+    color: black;
+    background-color:     #DCDCDC;
+    z-index: 10;
+}
+
+a,li {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.brand {
+    font-size: 50px;
+    font-weight: 700;   
+    margin-left: 300px;
+}
+.brand span {
+    text-transform: uppercase;
+    color: red;
+}
+
+.sign-box {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    color: black;
+    margin-right: 100px;
+  
+}
+.sign{ 
+    margin-left: 20px;
+    padding: 20px 35px;
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+.up {
+    background-color: rgb(2,0,36);
+    color: white;
+}
+
+.sidebar{
+    width: 25vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 10vh;
+    z-index: 10;
+    box-shadow: ;
+    background-color:     #fafdfe;
+    border-right: .1px solid black;
+    box-shadow: #0000CD;
+
+}
+.sidebar-content{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+.nav , .social{
+    
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.bar-item{
+
+    margin-top: 10px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom: .2px solid black;
+   
+}
+.bar-li{
+   list-style: none;
+   width: 50%;
+   font-size: 20px;
+
+}
+
+.bar-item span ion-icon{
+   
+    width: 26px;
+    height: 26px;
+
+}
+ .active {
+    background-color: #0000CD;
+    color: white;
+
+}
+.active ion-icon{
+    color: white;
+}
+.main{
+    width: 80vw;
+    float: right;
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+
+   
+
+}
+.main .hero-banner{
+    width: 80vw;
+    background-image: url(../project-img/software-developer-g0efc2f6e7_1920.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+    margin-bottom: 50px;
+    background-size: 100%;
+}
+
+.main .btn-group{
+   position: absolute;
+    top: 55%;
+    right: 26%;
+  
+    height: 5vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.text {
+      position: relative;
+      top: 30%;
+      left: 25%;
+      height: 10vh;
+      width: 50%;
+      font-size: 70px;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      color: white;
+      font-family: 'Montserrat', sans-serif;}
+.btn{
+    height: 100%;
+    width: 400px;
+    margin-left: 15px;
+    background-color: white;
+    font-size: 25px;
+    border: 2px solid blue;
+    border-radius: 50px;
+
+}
+.right {
+    background-color:red;
+    color: white;
+}
+.services{
+    margin-top: 150px;
+}
+.serv-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.sect-name{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600;
+    
+   
+    border-bottom: 4px solid red;
+}
+serv-item {
+    width: 40%;
+    height: 500px;
+    padding: 20px;
+   
+}
+.serv-img img{
+width: 100%;
+height: 350px;
+}
+.serv-info{
+    padding: 20px;
+    text-align: center;
+}
